@@ -61,8 +61,8 @@ def output_to_leancloud():
 
 
 try:
-    # printInConsole()
-    output_to_leancloud()
+    print_in_console()
+    # output_to_leancloud()
 
 except Exception as exception:
     print(exception)
